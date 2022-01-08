@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 def readTxt():
-    f = open(r"C:\Users\luisa\OneDrive\Documents\Data Science studies\DataCheckpoint\MISSION DATA VISUALIZATION\DV-ExerciseSheet1\Sheet1E1.txt", "r")
+    f = open(r"C:\file_location\file_name.txt", "r")
     data = {}
     
     for line in f:
@@ -20,7 +20,7 @@ def readTxt():
     return data
 
 def readCSV():
-    f = open(r"C:\Users\luisa\OneDrive\Documents\Data Science studies\DataCheckpoint\MISSION DATA VISUALIZATION\DV-ExerciseSheet1\Sheet1E1.csv", "r")
+    f = open(r"C:\file_location\file_name.csv", "r")
     data = {}
     
     firstLine = f.readline().strip("\n").split(",")[1:]
